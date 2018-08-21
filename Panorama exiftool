@@ -1,1 +1,3 @@
+# After combine images to create 1 panorama one. More properties need to be added to Metadata of image so that Google Street View can show correctly. For more info: https://developers.google.com/streetview/spherical-metadata
 exiftool -FullPanoWidthPixels=24576 -FullPanoHeightPixels=12288 -CroppedAreaLeftPixels=0 -CroppedAreaTopPixels=4537 -CroppedAreaImageWidthPixels=24576 -CroppedAreaImageHeightPixels=3214 -ProjectionType="equirectangular" -PoseHeadingDegrees=90 -UsePanoramaViewer=True panorama.jpg
+
